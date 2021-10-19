@@ -4,7 +4,7 @@ arrayCartao = list(map(int, n)) #CONVERTENDO O VALOR RECEBIDO EM LISTA INT
 for x in range(len(arrayCartao)):
 
     if (x % 2 == 1):
-        arrayCartao[x] = arrayCartao[x] 
+        
         verificador = arrayCartao[x]
 
         if(verificador > 9):
