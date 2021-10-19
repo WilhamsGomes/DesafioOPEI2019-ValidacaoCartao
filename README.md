@@ -1,1 +1,7 @@
-# DesafioOPEI2019-ValidacaoCartao
+# Desafio OPEI 2019 - Validação Cartão
+
+Luan recentemente começou a estagiar e, devido ao dinheiro que estava recebendo, decidiu solicitar um cartão de crédito. Depois de uma semana, o cartão de Luan chegou e ele resolveu realizar sua primeira compra. Após algumas horas de indecisão, Luan escolheu comprar um livro em uma loja virtual. Para tanto, ele precisou efetuar um cadastro no site. No entanto, quando ele digitou o número do seu cartão, uma mensagem de errou informou que ele tinha digitado o número do cartão errado. Depois de alguns minutos, Luan percebeu seu erro: o último dígito era um 3 e não um 4, como ele tinha colocado. Por ser bastante curioso, Luan tentou descobrir como eles sabiam que ele havia errado. Ele descobriu que existe um algoritmo para fazer a validação de números de cartão de crédito para saber se eles foram digitados corretamente, para evitar erros de digitação. Esse algoritmo funciona para qualquer sequência de números. O algoritmo consiste em:
+
+- Do dígito mais à direita, o verificador, ao dígito mais à esquerda, multiplique de forma alternada por 1 e depois por 2, até chegar no dígito mais à esquerda
+- Se alguma das multiplicações por dois gerar algum número com mais de um dígito, some os dois dígitos para que ele se transforme em um número de único dígito
+- Por fim, some todos os dígitos. O número será válido se o número resultante for um múltiplo de 10.
